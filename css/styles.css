@@ -1,23 +1,46 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-
-}
-
-h1 {
+/* heading */
+.big-heading,
+h1,
+h2,
+h3,
+h4 {
     font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
     font-weight: 900;
 
 }
 
-.container-fluid {
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* title */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+
+}
+
+#title .container-fluid {
     padding: 3% 15% 7%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
 
 }
 
@@ -52,19 +75,19 @@ h1 {
 /* title img */
 .title-img {
     width: 60%;
-    position:absolute;
+    position: absolute;
     right: 30%;
     transform: rotate(25deg)
 }
 
-@media (max-width: 1028px){
+@media (max-width: 1028px) {
 
-    #title{
+    #title {
         text-align: center;
 
     }
-    
-    .title-img{
+
+    .title-img {
         position: static;
         transform: rotate(0);
     }
@@ -81,7 +104,6 @@ h1 {
 }
 
 #features .features-box {
-    text-align: center;
     padding: 4.5%;
 
 }
@@ -96,13 +118,7 @@ h1 {
     color: #ff4c68;
 }
 
-h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    font-weight: bold;
 
-}
 
 #features p {
     color: #8f8f8f;
@@ -113,18 +129,10 @@ h3 {
 
 #testimonials {
 
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 
 
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
 }
 
 .testimonial-img {
@@ -134,7 +142,6 @@ h2 {
 }
 
 #press {
-    text-align: center;
     background-color: #ef8172;
     padding-bottom: 3%;
 
@@ -153,12 +160,17 @@ h2 {
 /* pricing */
 #pricing {
     padding: 100px;
-    text-align: center;
 
 }
 
-.pricing-col{
+.pricing-col {
     padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
 }
 
 /* call to action  */
@@ -166,11 +178,10 @@ h2 {
     background-color: #ff4c68;
     padding: 7% 15%;
     color: #fff;
-    text-align: center;
 
 }
 
-#cta h3{
+#cta h3 {
     font-weight: 900;
     font-size: 3.5rem;
 }
@@ -178,11 +189,8 @@ h2 {
 /* footer */
 #footer {
     padding: 50px 15%;
-    text-align: center;
 }
 
-#footer i{
+#footer i {
     margin: 2% 1%;
 }
-
- 
