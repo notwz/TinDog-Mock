@@ -54,10 +54,20 @@ h1 {
     width: 60%;
     position:absolute;
     right: 30%;
+    transform: rotate(25deg)
 }
 
-.rotated {
-    transform: rotate(25deg)
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+
+    }
+    
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /* features */
@@ -150,3 +160,5 @@ h2 {
 .pricing-col{
     padding: 3% 2%;
 }
+
+ 
