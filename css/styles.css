@@ -93,3 +93,39 @@ h1 {
     color: #8f8f8f;
 
 }
+
+/* testimonals */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align:center;
+    background-color: #ef8172;
+    color: #fff;
+
+
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonal-img {
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    text-align:center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+#press img{
+    width:15%;
+    margin: 20px 20px 50px;
+}
