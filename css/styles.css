@@ -97,7 +97,7 @@ h1 {
 /* testimonals */
 
 #testimonials {
-    padding: 7% 15%;
+
     text-align:center;
     background-color: #ef8172;
     color: #fff;
@@ -112,8 +112,8 @@ h2 {
     font-weight: bold;
 }
 
-.testimonal-img {
-    width:10%;
+.testimonial-img {
+    width:13%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -128,4 +128,9 @@ h2 {
 #press img{
     width:15%;
     margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
 }
